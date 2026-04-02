@@ -11,9 +11,10 @@ const Meta = ({ title, description, keywords }) => {
 };
 
 Meta.defaultProps = {
-  title: 'Welcome To ProShop',
-  description: 'We sell the best products for cheap',
-  keywords: 'electronics, buy electronics, cheap electroincs',
+  title : 'VUNÈ | Luxury Perfumes & Signature Scents',
+  description : 'Discover premium fragrances crafted for elegance, confidence, and timeless appeal. Shop luxury perfumes at VUNÈ.',
+  keywords : 'perfume, luxury fragrance, cologne, scents, Vune perfumes, designer perfumes, unisex fragrance',
+
 };
 
 export default Meta;
