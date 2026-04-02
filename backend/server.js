@@ -22,7 +22,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 // Enable CORS for frontend (React)
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: [
+    'http://localhost:3000',
+    'https://vune.onrender.com'
+  ],
   credentials: true,
 }));
 
